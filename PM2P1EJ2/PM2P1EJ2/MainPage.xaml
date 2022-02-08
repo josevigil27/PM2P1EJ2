@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2P1EJ2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Formulario Contactos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry 
+            x:Name="txtnombre"
+            Keyboard="Plain"
+            Margin="25, 25, 25, 0"
+            Placeholder="Ingrese un Nombre" />
+
+        <Entry 
+            x:Name="txtapellido"
+            Keyboard="Plain"
+            Margin="25, 25, 25, 0"
+            Placeholder="Ingrese un Apellido" />
+
+        <Entry 
+            x:Name="txtedad"
+            Keyboard="Numeric"
+            Margin="25, 25, 25, 0"
+            Placeholder="Ingrese su Edad" />
+
+        <Entry 
+            x:Name="txtcorreo"
+            Keyboard="Email"
+            Margin="25, 25, 25, 0"
+            Placeholder="Ingrese un Correo" />
+
+        <Button
+            x:Name="Btnpagemain"
+            Text="Mostrar Informacion"
+            Margin="25, 50, 25, 0"
+            Clicked="Btnpagemain_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>

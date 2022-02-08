@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2P1EJ2.PageMain">
+    <ContentPage.Content>
+        <StackLayout >
+            <Label 
+                Text="{Binding Nombre}"
+                Margin="25, 25, 25, 0"
+                HorizontalTextAlignment="Center" />
+
+            <Label 
+                Text="{Binding Apellido}"
+                Margin="25, 25, 25, 0" 
+                HorizontalTextAlignment="Center" />
+
+            <Label 
+                Text="{Binding Edad}"
+                Margin="25, 25, 25, 0"
+                HorizontalTextAlignment="Center" />
+
+            <Label 
+                Text="{Binding CorreoElectronico}"
+                Margin="25, 25, 25, 0" 
+                HorizontalTextAlignment="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
